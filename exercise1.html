@@ -47,39 +47,37 @@
         /* TODO 3: Add CSS media queries for smaller screens */
         @media only screen and (max-width: 768px) {
 
-            /* TODO 4: Center logo */
+            /* Center logo */
             header {
-                display: flex;
                 justify-content: center;
                 align-items: center;
             }
+            h1{
+                width: 100%;
+                text-align: center;
 
-            h1 {
-                float: none;
-                margin: 0;
             }
 
-            /* TODO 5: Shift navigation below logo, add a black background, and center all nav items */
+            /* Shift navigation below logo, add a black background, and center all nav items */
             nav {
-                float: none;
-                margin-top: 10px;
-                text-align: center;
+                position: relative;
                 background: #000;
+                width: 100%;
+                text-align: center;
             }
 
             nav a {
-                display: block;
                 padding: 10px;
                 color: #fff;
             }
 
-            /* TODO 6: Stack the 3 images in 1 column */
+            /* Stack the 3 images in 1 column */
             img {
                 width: 100%;
                 height: auto;
             }
 
-            /* TODO 7: Hide the video */
+            /* Hide the video */
             section:nth-child(3) {
                 display: none;
             }
